@@ -77,7 +77,6 @@ namespace z2
             Console.WriteLine("Group " + Name);
             StudentList.ForEach(delegate (Student st)
             {
-                Console.WriteLine("Group " + Name);
                 Console.WriteLine(st.name);
             });
         }
@@ -86,7 +85,6 @@ namespace z2
             Console.WriteLine("Group " + Name);
             StudentList.ForEach(delegate (Student st)
             {
-                Console.WriteLine("Group " + Name);
                 Console.WriteLine(st.name + " " + st.state);
             });
         }
